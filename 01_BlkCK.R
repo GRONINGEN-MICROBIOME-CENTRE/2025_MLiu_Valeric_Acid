@@ -25,19 +25,6 @@ metadata_BlkCK <- read.csv("../results/Orga_bulkrna/metadata_BlkCK.csv", header 
 # 从 count_data 中保留指定列
 count_data_BlkCK <- count_data[, rownames(metadata_BlkCK), drop = FALSE]
 
-# keep blanka and Cytokines samples 
-# c("Orga13_1", "Orga13_6", "Orga13_7", "Orga13_12", "Orga13_17", "Orga13_22", 
-# "Orga13_23", "Orga13_28", "Orga18_1", "Orga18_6", "Orga18_11", "Orga18_12", 
-# "Orga18_17", "Orga18_22", "Orga18_27", "Orga18_28", "Orga1045_1", "Orga1045_6", 
-# "Orga1045_11", "Orga1045_12", "Orga1045_17", "Orga1045_22", "Orga1045_27", 
-# "Orga1045_28")
-
-# 
-# BlkCKsamples <- c("Orga13_1", "Orga13_6", "Orga13_7", "Orga13_12", "Orga13_17", "Orga13_22", 
-#                   "Orga13_23", "Orga13_28", "Orga18_1", "Orga18_6", "Orga18_11", "Orga18_12", 
-#                   "Orga18_17", "Orga18_22", "Orga18_27", "Orga18_28", "Orga1045_1", "Orga1045_6", 
-#                   "Orga1045_11", "Orga1045_12", "Orga1045_17", "Orga1045_22", "Orga1045_27", 
-#                   "Orga1045_28")
 
 # ----------------------------------------------------------------------------------------------------------------------
 # DEG
