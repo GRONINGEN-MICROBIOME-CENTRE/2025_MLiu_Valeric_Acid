@@ -1,6 +1,6 @@
 library(dplyr)
 
-# Ingore the part
+# Ignore the part
 input_data <- read.table("../data/Orga_bulk/deseq2_input.txt", header = TRUE, row.names = 1)
 # Round the value
 input_data <-round(input_data,digits = 0)
